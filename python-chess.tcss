@@ -1,0 +1,27 @@
+# Screen {
+#     content-align: right middle;
+# }
+
+.container {
+    width: 72;
+    height: 32;
+}
+
+.board {
+    grid-size: 8 8;
+}
+
+.black-board-item {
+    content-align: center middle;
+    background: black;
+    height: 100%;
+    width: 100%;
+}
+
+.white-board-item {
+    content-align: center middle;
+    background: white;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
